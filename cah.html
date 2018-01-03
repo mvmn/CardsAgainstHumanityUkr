@@ -1,9 +1,11 @@
 <html>
 <head>
 	<style>
+		body { background-color: white; color: black; font-family: Arial, Helvetica, sans-serif; }
+		.descriptions { font-size: 95%; }
     	table { page-break-inside: avoid }
-		body { background-color: white; color: black; }
-		h1, h3, div { margin: 10px; }
+    	.breakBefore { page-break-before: always }
+		h2, h3, div { margin: 10px; }
 		td { vertical-align: text-top; }
 		table.cards { width: 100% }
 		table.cards td { 
@@ -16,7 +18,6 @@
 			padding: 10px; 
 						
 			font-weight: bold; 
-			font-family: Arial, Helvetica, sans-serif; 
 			font-size: 10pt;
 			
 			width: 25%;
@@ -29,7 +30,7 @@
 	<title>Злокарти Проти Людства - Cards Against Humanity - українська версія, перекладач - Микола Махін</title>
 </head>
 <body>
-		<table style="bolder: 0">
+		<table style="bolder: 0" class="descriptions">
 		<tr>
 			<td colspan="2">
 				<div style="width: 100%; text-align: center"><h2>Правила Злокарт Проти Людства</h2></div>
@@ -71,6 +72,16 @@
 	<div id="whiteCards">
 	</div>
 	<div id="blackCards">
+	</div>
+	<div class="breakBefore descriptions">
+		<h2>Terms of Use</h2>
+		<div>Thanks for downloading this all over your computer.</div>
+		<div>Cards Against Humanity is free to use under the Creative Commons BY-NC-SA 2.0 License. You can read more about the license at http://creativecommons.org/licenses/by-nc-sa/2.0/.</div>
+		<div>These are the terms of the copyright:</div>
+		<div><b>Attribution</b>: If you distribute our game, give us credit for the content.</div>
+		<div><b>Noncommercial</b>: You can’t sell our game or any derivative of our game for money or sexual favors.</div>
+		<div><b>Share Alike</b>: If you modify and/or distribute our game, you must use the Creative Commons BY-NC-SA 2.0 License.</div>
+		<div>You must also comply with the Laws of Man and Nature. Don’t use any form of this game for nefarious purposes like libel,  slander, diarrhea, copyright infringement, harassment, or death. If you break the law and get in trouble for it, Cards Against Humanity is free of all liability.</div>
 	</div>
 	<script>
 		var whiteCardsHtml = ['<table class="cards white"><tr>'];
